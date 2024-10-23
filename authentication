@@ -1,0 +1,12 @@
+ inteface Request {
+    email: String;
+    password: String;
+ }
+ 
+ class AuthenticateUserService {
+    public async execute({email, password}: Request): Promisse<void> {
+
+    }
+ }
+
+ export default authenticateUserService;

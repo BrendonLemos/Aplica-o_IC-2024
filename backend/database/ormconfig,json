@@ -5,6 +5,9 @@
     "username":"docker",
     "password": "ic2024",
     "database": "ic2024",
+    "entitires": [
+        "./src/models/*.ts"
+    ],
     "migrations":   [
         "./src/database/migrations/*.ts"
     ],
@@ -12,3 +15,4 @@
         "migrationsDir": "./src/database/migrations"
     }
 }
+  
